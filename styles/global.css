@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply font-semibold px-10 py-4 my-3 shadow-md rounded-full active:scale-95 hover:shadow-lg transition-all duration-100;
+    }
+
+    .sub-heading {
+        @apply text-2xl font-semibold;
+    }
+}
